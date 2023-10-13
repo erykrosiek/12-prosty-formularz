@@ -4,18 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formularz</title>
-<style>
-    label span{
-        display: inline-block;
-        width: 90px;
-    }
-</style>
 </head>
 <body>
+<div>
     <form method="GET">
-        <p><label><span>Imię: </span><input /></label></p>
-        <p><label><span>Nazwisko: </span><input /></label></p>
+        <label for="name">Imię:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="surname">Nazwisko:</label><br>
+        <input type="text" id="surname" name="surname"><br><br>
         <input type="submit" value="Wyślij"/>
+</div>
     </form>
 </body>
 </html>
